@@ -1,7 +1,7 @@
-const camposDoForlumario = document.querySelectorAll("[required]");
-console.log(camposDoForlumario);
+const camposDoFormulario = document.querySelectorAll("[required]");
+console.log(camposDoFormulario);
 
-camposDoForlumario.forEach((campo) => {
+camposDoFormulario.forEach((campo) => {
   campo.addEventListener("blur", () => verificaCampo(campo));
   // blur gatilho qd vc tira o foco do input
 });
